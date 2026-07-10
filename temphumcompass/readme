@@ -1,0 +1,22 @@
+This module is right around the handle of my wizard staff, and it has a few functions.
+
+1. OLED Display
+  a. This is run using 2 screens, .96" OLED displays
+  b. I kept them with the same address, so they display the same thing
+  c. They have a bar of yellow at the top that I use as an info pane, displaying compass bearing, temperature, and humidity.
+  d. The rest is used as a sort of graphical representation. There is a bar that represents 0, and the points of a floating triangle are temp, humidity, and a fixed one. 
+    There is also a filled circle with some spotty code representing compass bearing.
+2. Temperature
+    from a temp/humidity module
+3. Humidity
+    from the very same aforementioned temp/humidity module
+4. Compass
+    from a 3-axis magnetometer, which I'm sure could have more functions, but preliminary search didn't yield much. Maybe a cell phone detector? I don't know.
+5. Multicolor LED
+    another way to represent actions and inputs to the module. The buttons change the color based on what they're doing, then it returns to normal after 4 seconds
+6. Button 1
+    Game button
+    I made a simple 6-sided dice left/right/everybody drinking game button that changes the LED color and displays the result text on the screens
+7. Button 2
+    Alignment button
+    It checks the compass bearing (69 degrees is the target currently) and then shows an animation and displays success/unaligned, and changes the color of the LED
