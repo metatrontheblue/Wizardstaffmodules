@@ -8,3 +8,8 @@ So far, it is set to ask if a person would like a quest, then it displays the qu
 
 Eventually, I want to assign and save quest numbers so they can be turned in and put on a leaderboard of adventurers.
   This will be a lot of coding pieces, like adding a touch keyboard, number pad, accessing onboard memory to save the leaderboard and the quest list
+
+The library is kind of a mess right now because it contains the entire LVGL examples library and some other stuff I don't think I'll need for the final project. 
+
+Right now, this is just my main file to show what the code is doing, and the amount of coding I need to do to get the CYD working properly. 
+It was a beast to get working, but I think it'll be a good start to using it for other things as well.
