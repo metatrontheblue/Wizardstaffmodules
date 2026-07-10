@@ -1,0 +1,10 @@
+This is the code for a servo and screen project I am building. 
+It has a dinosaur mask that opens and closes, so I attached servos for up/down and left/right of the neck, as well as open/shut of the jaws
+
+The touchscreen is a Cheap Yellow Display, which has a lot of other functions that I'm interested to add to this project
+firstly, it has wifi, so I could have it connect to a wifi mesh network and communicate with my staff when someone interacts with him
+
+So far, it is set to ask if a person would like a quest, then it displays the quest assigned.
+
+Eventually, I want to assign and save quest numbers so they can be turned in and put on a leaderboard of adventurers.
+  This will be a lot of coding pieces, like adding a touch keyboard, number pad, accessing onboard memory to save the leaderboard and the quest list
