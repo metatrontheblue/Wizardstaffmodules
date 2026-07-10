@@ -20,3 +20,6 @@ This module is right around the handle of my wizard staff, and it has a few func
 7. Button 2
     Alignment button
     It checks the compass bearing (69 degrees is the target currently) and then shows an animation and displays success/unaligned, and changes the color of the LED
+
+It has a handful of libraries it uses (all listed in the includes, nothing weird), and I put it all together on the Arduino IDE, since it's one file.
+This is on a Uno R3, I will add pinouts in next update.
